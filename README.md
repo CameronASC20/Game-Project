@@ -1,9 +1,23 @@
 # Game-Project
 
+Approach taken:
+
+Win conditon - defeat all enemies
+
+Player controls - WASD
+
+Enemies spawn until specific number of enemies are dead
+
+After specific number of enemies are gone, boss appears
+
+
+
+
+
 ![start game button](https://user-images.githubusercontent.com/68292255/154707431-a6b6e4ba-6a9d-4838-8282-d661cb35151b.jpg)
 
 
-![Untitled (1)](https://user-images.githubusercontent.com/68292255/154717074-74c0d2a6-421e-4a9b-a1e0-15eacb0b039d.jpg)
+![gameplay](https://user-images.githubusercontent.com/68292255/154717074-74c0d2a6-421e-4a9b-a1e0-15eacb0b039d.jpg)
 
 
 
