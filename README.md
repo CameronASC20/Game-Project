@@ -8,6 +8,10 @@ Player controls - WASD
 
 Enemies spawn until specific number of enemies are dead
 
+Enemies will attack you
+
+If touched by an enemy, GAME OVER! will appear
+
 After specific number of enemies are gone, boss appears
 
 
