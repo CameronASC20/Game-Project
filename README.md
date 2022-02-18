@@ -32,3 +32,13 @@ After specific number of obstacles are cleared, you win
 
 
 ![restart button](https://user-images.githubusercontent.com/68292255/154717127-d0909a0c-b6da-4322-81a6-53297a9003f1.jpg)
+
+Technologies used:
+HTML
+CSS
+Javascript
+
+
+Future Development:
+Make more levels
+Increase speed and add more obstacles
