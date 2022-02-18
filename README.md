@@ -1,18 +1,19 @@
 # Game-Project
 
+Name: Hop!
+
+Jump over obstacles until you reach the end.
+
+
 Approach taken:
 
-Win conditon - defeat all enemies
+Win conditon - clear the level
 
-Player controls - WASD
+Player controls - Spacebar
 
-Enemies spawn until specific number of enemies are dead
+Obstacles will appear from the right side of your screen and move to the left
 
-Enemies will attack you
-
-If touched by an enemy, GAME OVER! will appear
-
-After specific number of enemies are gone, boss appears
+After specific number of obstacles are cleared, you win
 
 
 
@@ -21,11 +22,10 @@ After specific number of enemies are gone, boss appears
 ![start game button](https://user-images.githubusercontent.com/68292255/154707431-a6b6e4ba-6a9d-4838-8282-d661cb35151b.jpg)
 
 
-![gameplay](https://user-images.githubusercontent.com/68292255/154717074-74c0d2a6-421e-4a9b-a1e0-15eacb0b039d.jpg)
+![new gameplay](https://user-images.githubusercontent.com/68292255/154751397-b6e3240e-bdaf-45e3-97b6-f34e6469549d.jpg)
 
 
-
-![end game screen](https://user-images.githubusercontent.com/68292255/154717099-86d3dfc7-9f7e-46de-a69f-981df1244508.jpg)
+![new game win screen](https://user-images.githubusercontent.com/68292255/154751932-f703c5b1-3685-424c-bf57-6506e7d5deee.jpg)
 
 
 ![end game lose screen](https://user-images.githubusercontent.com/68292255/154717110-3e4c5b49-1029-4534-aff8-77667897f380.jpg)
