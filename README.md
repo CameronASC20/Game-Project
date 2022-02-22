@@ -22,11 +22,10 @@ After specific number of obstacles are cleared, you win
 ![start game button](https://user-images.githubusercontent.com/68292255/154707431-a6b6e4ba-6a9d-4838-8282-d661cb35151b.jpg)
 
 
-![gameplay](https://user-images.githubusercontent.com/68292255/154717074-74c0d2a6-421e-4a9b-a1e0-15eacb0b039d.jpg)
+![new gameplay](https://user-images.githubusercontent.com/68292255/154751397-b6e3240e-bdaf-45e3-97b6-f34e6469549d.jpg)
 
 
-
-![end game screen](https://user-images.githubusercontent.com/68292255/154717099-86d3dfc7-9f7e-46de-a69f-981df1244508.jpg)
+![new game win screen](https://user-images.githubusercontent.com/68292255/154751932-f703c5b1-3685-424c-bf57-6506e7d5deee.jpg)
 
 
 ![end game lose screen](https://user-images.githubusercontent.com/68292255/154717110-3e4c5b49-1029-4534-aff8-77667897f380.jpg)
@@ -34,6 +33,7 @@ After specific number of obstacles are cleared, you win
 
 ![restart button](https://user-images.githubusercontent.com/68292255/154717127-d0909a0c-b6da-4322-81a6-53297a9003f1.jpg)
 
+<<<<<<< HEAD
 
 Technologies used:
 HTML
@@ -44,3 +44,20 @@ Javascript
 Future Development:
 Make more levels
 Increase speed and add more obstacles
+=======
+Technologies used:
+
+HTML
+
+CSS
+
+Javascript
+
+
+
+Future Development:
+
+Make more levels
+
+Increase speed and add more obstacles
+>>>>>>> 9fcdb3f98a7e1a7a2e4cd036ff57a03d72140fa2
