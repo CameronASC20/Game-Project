@@ -33,7 +33,6 @@ After specific number of obstacles are cleared, you win
 
 ![restart button](https://user-images.githubusercontent.com/68292255/154717127-d0909a0c-b6da-4322-81a6-53297a9003f1.jpg)
 
-<<<<<<< HEAD
 
 Technologies used:
 HTML
@@ -44,7 +43,6 @@ Javascript
 Future Development:
 Make more levels
 Increase speed and add more obstacles
-=======
 Technologies used:
 
 HTML
@@ -60,4 +58,3 @@ Future Development:
 Make more levels
 
 Increase speed and add more obstacles
->>>>>>> 9fcdb3f98a7e1a7a2e4cd036ff57a03d72140fa2
