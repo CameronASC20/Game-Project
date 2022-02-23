@@ -5,7 +5,15 @@ const jump = () => {
     player.classList.add('animate')
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    player.addEventListener('onclick', jump)
-    jump()
-})
+const removeJump = () => {
+    setTimeout(function() {
+        player.classList.remove('animate')
+    }, 500)
+}
+
+document.body.onkeyup = function (e) {
+    if(e.keyCode === 32) {
+        jump()
+        removeJump()
+    }
+}
