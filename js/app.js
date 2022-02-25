@@ -61,8 +61,13 @@ let block = new Block(1550, 450, 'lightgreen', 50, 50)
 const jump = (e) => {
     console.log('jump event', e)
     if (e.keyCode == 32) {
-        console.log('did this fire?')
-            player.y -= 50
+            player.y -= 70
+    }
+}
+
+const removeJump = () => {
+    if (player.y != 430) {
+        player.y += 70
     }
 }
 
@@ -73,6 +78,7 @@ const gameLoop = () => {
     ctx.clearRect(0, 0, game.width, game.height)
     player.render()
     block.render()
+    removeJump
 }
 
 let gameInterval = setInterval(gameLoop, 60)
