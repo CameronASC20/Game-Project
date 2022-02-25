@@ -45,8 +45,12 @@ class Block {
 let player = new Player(0, 430, 'blue', 50, 70)
 let block = new Block(1550, 450, 'lightgreen', 50, 50)
 
-player.render()
-block.render()
+const blockMove = () => {
+    if (x > canvas.width) {
+        x -= 100;
+    }
+    requestAnimationFrame(block)
+}
 
 // const stopGameLoop = () => {clearInterval(gameInterval)}
 
@@ -54,19 +58,26 @@ block.render()
 //     gameInterval
 // })
 
+// const jump = () => {
+//     switch (e.keycode) {
+//         case (32):
+//             player.y -= 10
+//             break
+//     }
+// }
+
+player.render()
+block.render()
+blockMove()
+
 // const gameLoop = () => {
 //     ctx.clearRect(0, 0, game.width, game.height)
-//     if () {
+//     for (block = 0; block < 10; block++) {
 //         stopGameLoop()
 //         document.querySelector('#status').textContent = 'You Win!'
 //     }
 // }
 
-// const jump = () => {
-//     if (player.classList != 'animate') {
-//         player.classList.add('animate')
-//     }
-// }
 
 // const removeJump = () => {
 //     setTimeout(function() {
