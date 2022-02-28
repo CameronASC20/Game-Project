@@ -13,10 +13,6 @@ class Player {
         this.color = color,
         this.height = height,
         this.width = width
-        // this.jump
-		// this.direction = {
-        //     up: false
-        // }
     }
     render = function () {
         // ctx.fillStyle will determine the color(or style) of your element
@@ -43,7 +39,6 @@ class Block {
         // ctx.translate(1500, 0)
         this.x -= this.speed;
         if (this.x < 0) {
-            console.log('x position is', this.x)
             this.x = canvas.width - this.width
         }
         // requestAnimationFrame(block)
@@ -60,18 +55,15 @@ let block = new Block(1550, 450, 'lightgreen', 50, 50)
 
 
 const jump = (e) => {
-    console.log('jump event', e)
     if (e.keyCode == 32) {
         let start = Date.now()
         player.y -= 100
         const timer = setInterval(function() {
             // how much time passed from the start?
-            console.log('timer')
             let timePassed = Date.now() - start
             
             if (timePassed >= 1000) {
                 player.y += 100
-                console.log('2 seconds')
                 // finish animation after 2 sec
                 clearInterval(timer)
             }
@@ -79,13 +71,15 @@ const jump = (e) => {
     }
 }
 
-
-// const removeJump = () => {
-//     if (player.y === 360) {
-//             player.y += 70 
-//     }
-//     console.log('player y', player.y)
-// }
+const detectHit = () => {
+    if (player.x < block.x + block.width 
+        && player.x + player.width > block.x
+        && player.y < block.y + block.height
+        && player.y + player.height > block.y) {
+        console.log('hit')
+        document.getElementById('status').textContent = 'YOU LOSE'
+    }
+}
 
 document.addEventListener('keydown', jump)
 
@@ -101,14 +95,6 @@ const gameLoop = () => {
     // check timer position against first
     // if more than 10 has past reset player position
     // reset jump timer
-}
-
-const detectHit = () => {
-    if (player.x + player.width > block.x &&
-        player.y >= block.y + block.height) {
-        console.log('hit')
-        document.getElementById('status').textContent = 'YOU LOSE'
-    }
 }
 
 let gameInterval = setInterval(gameLoop, 60)
