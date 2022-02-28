@@ -50,7 +50,7 @@ class Block {
     }
 }
 
-let player = new Player(0, 430, 'blue', 50, 70)
+let player = new Player(0, 430, 'blue', 70, 50)
 let block = new Block(1550, 450, 'lightgreen', 50, 50)
 
 
