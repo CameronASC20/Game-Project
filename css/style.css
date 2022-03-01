@@ -3,8 +3,13 @@ html,body {
     padding:0;
 }
 
-h1, #status {
+h1 {
     text-align: center;
+}
+
+#top-right, #top-left {
+    display: flex;
+    justify-content: center;
 }
 
 canvas {
